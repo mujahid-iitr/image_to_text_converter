@@ -149,6 +149,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+//this method is used to convert image text to simple text
   Future<void> performImageLabeling() async {
     final FirebaseVisionImage firebaseVisionImage = FirebaseVisionImage.fromFile(image);
     final TextRecognizer textRecognizer = FirebaseVision.instance.textRecognizer();
