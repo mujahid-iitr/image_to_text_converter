@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775143415832",
+    "project_id": "imagetotextconverterapp-ef481",
+    "storage_bucket": "imagetotextconverterapp-ef481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775143415832:android:d9cb3d40d69c8e6571a36d",
+        "android_client_info": {
+          "package_name": "mohammad.mujahid.image_to_text_converter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775143415832-in2vag698q6coqstiqhdvav4gmvf29jq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAEjwm7U_EVSe7R8oh_jVKMBvnund7060"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775143415832-in2vag698q6coqstiqhdvav4gmvf29jq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
