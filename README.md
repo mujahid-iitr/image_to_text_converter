@@ -1,5 +1,5 @@
 # image_to_text_converter_app
-
+author mmujahid
 This app will convert any text on an image to simple text so that people can extract the text from the app and use it.
 
 ## Getting Started
