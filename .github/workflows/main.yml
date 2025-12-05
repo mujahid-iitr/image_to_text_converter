@@ -1,15 +1,25 @@
-name: Hello World Workflow
+name: Android Lint
 
-on: 
+on:
   push:
+  pull_request:
 
 jobs:
-  hello-world:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Print Hello World
-        run: echo "Hello World"
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Run Android Lint
+        run: ./gradlew lint
